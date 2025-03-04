@@ -1,5 +1,5 @@
 {% set name = "meepmeep" %}
-{% set version = "0.6.4" %}
+{% set version = "0.7.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/meepmeep-{{ version }}.tar.gz
-  sha256: 47fb73544bd90d5373fb6b5aed74bae06b302e61da75ec4acf6dbe183ef39df3
+  sha256: 871d37f23fe310f3768478a9a3544d7cea39ebb2f28669cfaf93f34dae9740ad
 
 build:
   noarch: python
