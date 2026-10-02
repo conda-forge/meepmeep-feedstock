@@ -19,6 +19,7 @@ requirements:
   host:
     - python {{ python_min }}
     - setuptools
+    - setuptools-scm >=8
     - pip
   run:
     - python >={{ python_min }}
@@ -32,6 +33,7 @@ test:
     - meepmeep
   commands:
     - pip check
+    - python -c "from importlib.metadata import version; assert version('meepmeep') == '{{ version }}'"
   requires:
     - python {{ python_min }}
     - pip
