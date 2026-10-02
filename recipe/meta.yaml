@@ -22,9 +22,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >= 2.0
-    - numba >= 0.60
-    - scipy >= 1.10
+    - numpy >=2.0
+    - numba >=0.60
+    - scipy >=1.10
     - matplotlib-base
 
 test:
