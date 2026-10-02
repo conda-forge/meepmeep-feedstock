@@ -22,11 +22,10 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy
-    - numba
-    - scipy
+    - numpy >= 2.0
+    - numba >= 0.60
+    - scipy >= 1.10
     - matplotlib-base
-    - semantic_version
 
 test:
   imports:
